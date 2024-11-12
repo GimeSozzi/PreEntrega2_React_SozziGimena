@@ -11,7 +11,7 @@
 }
 
 .item-detail:hover {
-  transform: scale(1.05); /* Efecto hover como en .product-card */
+  transform: scale(1.05);
 }
 
 .item-detail-image {
@@ -44,24 +44,59 @@
   margin-bottom: 15px;
 }
 
-.item-detail .detail-button {
-  background-color: #ff4757;
-  color: rgb(7, 5, 5);
-  border: none;
-  font-weight: bold;
-  padding: 8px 12px;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.item-detail .detail-button:hover {
-  background-color: #333333;
-}
-
 .item-detail-stock {
   font-size: 1rem;
   font-weight: bold;
   color: #28a745;
   margin-top: 10px;
+}
+
+.go-to-cart-button {
+  background-color: #ff4757;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  margin-top: 15px;
+}
+
+.go-to-cart-button:hover {
+  background-color: #333333;
+}
+
+.item-count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.item-count button {
+  background-color: #ff4757;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.item-count button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.item-count button:hover:not(:disabled) {
+  background-color: #333333;
+}
+
+.item-count span {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
 }
