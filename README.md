@@ -56,8 +56,6 @@ src/
 │ ├── ButtonCategory.css  
 │ ├── CartWidget.jsx  
 │ ├── CartWidget.css  
-│ ├── Footer.jsx  
-│ ├── Footer.css  
 │ ├── Item.jsx  
 │ ├── Item.css  
 │ ├── ItemCount.jsx  
@@ -71,7 +69,6 @@ src/
 │ ├── ItemListContainer.css  
 │ ├── NavBar.jsx  
 │ ├── NavBar.css  
-│ └── Cart.jsx  
 │  
 ├── services/  
 │ ├── asyncMock.js  
